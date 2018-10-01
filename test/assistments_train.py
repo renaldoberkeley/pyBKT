@@ -6,7 +6,7 @@ from pyBKT.fit import EM_fit
 from pyBKT.util.data_helper import assistments_data
 from copy import deepcopy
 
-#get the name of the skill that is passed ifmain
+# get the name of the skill that is passed in as an argument
 skill_passed_in = sys.argv[1]
 
 #skill = 'Equation Solving Two or Fewer Steps'
