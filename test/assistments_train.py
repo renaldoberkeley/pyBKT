@@ -6,7 +6,7 @@ from pyBKT.fit import EM_fit
 from pyBKT.util.data_helper import assistments_data
 from copy import deepcopy
 
-skill = 'Pythagorean Theorem'
+skill = 'Equation Solving Two or Fewer Steps'
 
 #parameters classes
 num_gs = 1 #number of guess/slip classes
