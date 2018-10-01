@@ -6,9 +6,11 @@ from pyBKT.fit import EM_fit
 from pyBKT.util.data_helper import assistments_data
 from copy import deepcopy
 
-print('Argument List:', str(sys.argv))
+#get the name of the skill that is passed ifmain
+skill_passed_in = sys.argv[1]
 
-skill = 'Equation Solving Two or Fewer Steps'
+#skill = 'Equation Solving Two or Fewer Steps'
+skill = skill_passed_in
 
 #parameters classes
 num_gs = 1 #number of guess/slip classes
